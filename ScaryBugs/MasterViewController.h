@@ -12,7 +12,11 @@
 
 @interface MasterViewController : UITableViewController
 
+// Code tha initializes a detail view controller i am assuming
 @property (strong, nonatomic) DetailViewController *detailViewController;
+
+// an array that will store our instances of Scary Bug Doc
+@property (strong) NSMutableArray *bugs;
 
 
 @end

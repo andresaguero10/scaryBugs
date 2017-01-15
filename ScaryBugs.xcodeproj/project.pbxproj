@@ -14,21 +14,43 @@
 		43B50D231E2B3F8A005F5355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D211E2B3F8A005F5355 /* Main.storyboard */; };
 		43B50D251E2B3F8A005F5355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D241E2B3F8A005F5355 /* Assets.xcassets */; };
 		43B50D281E2B3F8A005F5355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D261E2B3F8A005F5355 /* LaunchScreen.storyboard */; };
+		43B50D331E2B4179005F5355 /* RWTScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B50D321E2B4179005F5355 /* RWTScaryBugData.m */; };
+		43B50D361E2B4396005F5355 /* RWTScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B50D351E2B4396005F5355 /* RWTScaryBugDoc.m */; };
+		43B50D3F1E2B4E4A005F5355 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D371E2B4E4A005F5355 /* centipede.jpg */; };
+		43B50D401E2B4E4A005F5355 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D381E2B4E4A005F5355 /* centipedeThumb.jpg */; };
+		43B50D411E2B4E4A005F5355 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D391E2B4E4A005F5355 /* ladybug.jpg */; };
+		43B50D421E2B4E4A005F5355 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D3A1E2B4E4A005F5355 /* ladybugThumb.jpg */; };
+		43B50D431E2B4E4A005F5355 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D3B1E2B4E4A005F5355 /* potatoBug.jpg */; };
+		43B50D441E2B4E4A005F5355 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D3C1E2B4E4A005F5355 /* potatoBugThumb.jpg */; };
+		43B50D451E2B4E4A005F5355 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D3D1E2B4E4A005F5355 /* wolfSpider.jpg */; };
+		43B50D461E2B4E4A005F5355 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D3E1E2B4E4A005F5355 /* wolfSpiderThumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43B50D121E2B3F8A005F5355 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B50D161E2B3F8A005F5355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		43B50D181E2B3F8A005F5355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		43B50D191E2B3F8A005F5355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43B50D1B1E2B3F8A005F5355 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		43B50D1C1E2B3F8A005F5355 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		43B50D1E1E2B3F8A005F5355 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		43B50D1F1E2B3F8A005F5355 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		43B50D181E2B3F8A005F5355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ScaryBugs/AppDelegate.h; sourceTree = "<group>"; };
+		43B50D191E2B3F8A005F5355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ScaryBugs/AppDelegate.m; sourceTree = "<group>"; };
+		43B50D1B1E2B3F8A005F5355 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ScaryBugs/MasterViewController.h; sourceTree = "<group>"; };
+		43B50D1C1E2B3F8A005F5355 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ScaryBugs/MasterViewController.m; sourceTree = "<group>"; };
+		43B50D1E1E2B3F8A005F5355 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ScaryBugs/DetailViewController.h; sourceTree = "<group>"; };
+		43B50D1F1E2B3F8A005F5355 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ScaryBugs/DetailViewController.m; sourceTree = "<group>"; };
 		43B50D221E2B3F8A005F5355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43B50D241E2B3F8A005F5355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43B50D271E2B3F8A005F5355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43B50D291E2B3F8A005F5355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B50D311E2B4179005F5355 /* RWTScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugData.h; sourceTree = "<group>"; };
+		43B50D321E2B4179005F5355 /* RWTScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugData.m; sourceTree = "<group>"; };
+		43B50D341E2B4396005F5355 /* RWTScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugDoc.h; sourceTree = "<group>"; };
+		43B50D351E2B4396005F5355 /* RWTScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugDoc.m; sourceTree = "<group>"; };
+		43B50D371E2B4E4A005F5355 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		43B50D381E2B4E4A005F5355 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		43B50D391E2B4E4A005F5355 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		43B50D3A1E2B4E4A005F5355 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		43B50D3B1E2B4E4A005F5355 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		43B50D3C1E2B4E4A005F5355 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		43B50D3D1E2B4E4A005F5355 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		43B50D3E1E2B4E4A005F5355 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +83,16 @@
 		43B50D141E2B3F8A005F5355 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
-				43B50D181E2B3F8A005F5355 /* AppDelegate.h */,
-				43B50D191E2B3F8A005F5355 /* AppDelegate.m */,
-				43B50D1B1E2B3F8A005F5355 /* MasterViewController.h */,
-				43B50D1C1E2B3F8A005F5355 /* MasterViewController.m */,
-				43B50D1E1E2B3F8A005F5355 /* DetailViewController.h */,
-				43B50D1F1E2B3F8A005F5355 /* DetailViewController.m */,
-				43B50D211E2B3F8A005F5355 /* Main.storyboard */,
+				43B50D371E2B4E4A005F5355 /* centipede.jpg */,
+				43B50D381E2B4E4A005F5355 /* centipedeThumb.jpg */,
+				43B50D391E2B4E4A005F5355 /* ladybug.jpg */,
+				43B50D3A1E2B4E4A005F5355 /* ladybugThumb.jpg */,
+				43B50D3B1E2B4E4A005F5355 /* potatoBug.jpg */,
+				43B50D3C1E2B4E4A005F5355 /* potatoBugThumb.jpg */,
+				43B50D3D1E2B4E4A005F5355 /* wolfSpider.jpg */,
+				43B50D3E1E2B4E4A005F5355 /* wolfSpiderThumb.jpg */,
+				43B50D301E2B4142005F5355 /* Model */,
+				43B50D2F1E2B40D9005F5355 /* GUI */,
 				43B50D241E2B3F8A005F5355 /* Assets.xcassets */,
 				43B50D261E2B3F8A005F5355 /* LaunchScreen.storyboard */,
 				43B50D291E2B3F8A005F5355 /* Info.plist */,
@@ -82,6 +107,32 @@
 				43B50D161E2B3F8A005F5355 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43B50D2F1E2B40D9005F5355 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				43B50D181E2B3F8A005F5355 /* AppDelegate.h */,
+				43B50D191E2B3F8A005F5355 /* AppDelegate.m */,
+				43B50D211E2B3F8A005F5355 /* Main.storyboard */,
+				43B50D1B1E2B3F8A005F5355 /* MasterViewController.h */,
+				43B50D1C1E2B3F8A005F5355 /* MasterViewController.m */,
+				43B50D1E1E2B3F8A005F5355 /* DetailViewController.h */,
+				43B50D1F1E2B3F8A005F5355 /* DetailViewController.m */,
+			);
+			name = GUI;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		43B50D301E2B4142005F5355 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43B50D311E2B4179005F5355 /* RWTScaryBugData.h */,
+				43B50D321E2B4179005F5355 /* RWTScaryBugData.m */,
+				43B50D341E2B4396005F5355 /* RWTScaryBugDoc.h */,
+				43B50D351E2B4396005F5355 /* RWTScaryBugDoc.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +194,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B50D281E2B3F8A005F5355 /* LaunchScreen.storyboard in Resources */,
+				43B50D431E2B4E4A005F5355 /* potatoBug.jpg in Resources */,
+				43B50D451E2B4E4A005F5355 /* wolfSpider.jpg in Resources */,
+				43B50D461E2B4E4A005F5355 /* wolfSpiderThumb.jpg in Resources */,
+				43B50D421E2B4E4A005F5355 /* ladybugThumb.jpg in Resources */,
+				43B50D3F1E2B4E4A005F5355 /* centipede.jpg in Resources */,
+				43B50D401E2B4E4A005F5355 /* centipedeThumb.jpg in Resources */,
 				43B50D251E2B3F8A005F5355 /* Assets.xcassets in Resources */,
+				43B50D441E2B4E4A005F5355 /* potatoBugThumb.jpg in Resources */,
+				43B50D411E2B4E4A005F5355 /* ladybug.jpg in Resources */,
 				43B50D231E2B3F8A005F5355 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B50D331E2B4179005F5355 /* RWTScaryBugData.m in Sources */,
 				43B50D1A1E2B3F8A005F5355 /* AppDelegate.m in Sources */,
+				43B50D361E2B4396005F5355 /* RWTScaryBugDoc.m in Sources */,
 				43B50D1D1E2B3F8A005F5355 /* MasterViewController.m in Sources */,
 				43B50D171E2B3F8A005F5355 /* main.m in Sources */,
 				43B50D201E2B3F8A005F5355 /* DetailViewController.m in Sources */,
@@ -171,6 +232,7 @@
 				43B50D221E2B3F8A005F5355 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ScaryBugs;
 			sourceTree = "<group>";
 		};
 		43B50D261E2B3F8A005F5355 /* LaunchScreen.storyboard */ = {

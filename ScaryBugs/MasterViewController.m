@@ -9,12 +9,17 @@
 #import "MasterViewController.h"
 #import "DetailViewController.h"
 
+#import "RWTScaryBugDoc.h"
+#import "RWTScaryBugData.h"
+
+
 @interface MasterViewController ()
 
 @property NSMutableArray *objects;
 @end
 
 @implementation MasterViewController
+@synthesize bugs = _bugs;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,6 +29,8 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    
+    self.title = @"Scary Bugs";
 }
 
 
@@ -71,15 +78,17 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.objects.count;
+    return _bugs.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBasicCell" forIndexPath:indexPath];
 
-    NSDate *object = self.objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    RWTScaryBugDoc *bug = [self.bugs objectAtIndex:indexPath.row];
+    cell.textLabel.text = bug.data.title;
+    cell.imageView.image = bug.thumbImage;
+ 
     return cell;
 }
 
