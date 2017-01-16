@@ -24,6 +24,12 @@
 		43B50D441E2B4E4A005F5355 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D3C1E2B4E4A005F5355 /* potatoBugThumb.jpg */; };
 		43B50D451E2B4E4A005F5355 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D3D1E2B4E4A005F5355 /* wolfSpider.jpg */; };
 		43B50D461E2B4E4A005F5355 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D3E1E2B4E4A005F5355 /* wolfSpiderThumb.jpg */; };
+		43B50D4A1E2BF7BF005F5355 /* RWTRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B50D491E2BF7BF005F5355 /* RWTRateView.m */; };
+		43B50D4F1E2BF93A005F5355 /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B50D4E1E2BF93A005F5355 /* RWTUIImageExtras.m */; };
+		43B50D531E2BF94A005F5355 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D501E2BF94A005F5355 /* shockedface2_empty.png */; };
+		43B50D541E2BF94A005F5355 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D511E2BF94A005F5355 /* shockedface2_full.png */; };
+		43B50D551E2BF94A005F5355 /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D521E2BF94A005F5355 /* shockedface2_half.png */; };
+		43B50D571E2BF966005F5355 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B50D561E2BF966005F5355 /* logo1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,14 @@
 		43B50D3C1E2B4E4A005F5355 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
 		43B50D3D1E2B4E4A005F5355 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		43B50D3E1E2B4E4A005F5355 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		43B50D481E2BF7BF005F5355 /* RWTRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTRateView.h; sourceTree = "<group>"; };
+		43B50D491E2BF7BF005F5355 /* RWTRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTRateView.m; sourceTree = "<group>"; };
+		43B50D4D1E2BF93A005F5355 /* RWTUIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTUIImageExtras.h; sourceTree = "<group>"; };
+		43B50D4E1E2BF93A005F5355 /* RWTUIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTUIImageExtras.m; sourceTree = "<group>"; };
+		43B50D501E2BF94A005F5355 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		43B50D511E2BF94A005F5355 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		43B50D521E2BF94A005F5355 /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
+		43B50D561E2BF966005F5355 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,9 @@
 		43B50D141E2B3F8A005F5355 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
+				43B50D4C1E2BF92A005F5355 /* Helpers */,
+				43B50D4B1E2BF925005F5355 /* Art */,
+				43B50D471E2BF7AF005F5355 /* Views */,
 				43B50D371E2B4E4A005F5355 /* centipede.jpg */,
 				43B50D381E2B4E4A005F5355 /* centipedeThumb.jpg */,
 				43B50D391E2B4E4A005F5355 /* ladybug.jpg */,
@@ -133,6 +150,35 @@
 				43B50D351E2B4396005F5355 /* RWTScaryBugDoc.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		43B50D471E2BF7AF005F5355 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43B50D481E2BF7BF005F5355 /* RWTRateView.h */,
+				43B50D491E2BF7BF005F5355 /* RWTRateView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		43B50D4B1E2BF925005F5355 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				43B50D561E2BF966005F5355 /* logo1.png */,
+				43B50D501E2BF94A005F5355 /* shockedface2_empty.png */,
+				43B50D511E2BF94A005F5355 /* shockedface2_full.png */,
+				43B50D521E2BF94A005F5355 /* shockedface2_half.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		43B50D4C1E2BF92A005F5355 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				43B50D4D1E2BF93A005F5355 /* RWTUIImageExtras.h */,
+				43B50D4E1E2BF93A005F5355 /* RWTUIImageExtras.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,15 +240,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B50D281E2B3F8A005F5355 /* LaunchScreen.storyboard in Resources */,
+				43B50D531E2BF94A005F5355 /* shockedface2_empty.png in Resources */,
 				43B50D431E2B4E4A005F5355 /* potatoBug.jpg in Resources */,
 				43B50D451E2B4E4A005F5355 /* wolfSpider.jpg in Resources */,
 				43B50D461E2B4E4A005F5355 /* wolfSpiderThumb.jpg in Resources */,
 				43B50D421E2B4E4A005F5355 /* ladybugThumb.jpg in Resources */,
 				43B50D3F1E2B4E4A005F5355 /* centipede.jpg in Resources */,
 				43B50D401E2B4E4A005F5355 /* centipedeThumb.jpg in Resources */,
+				43B50D541E2BF94A005F5355 /* shockedface2_full.png in Resources */,
 				43B50D251E2B3F8A005F5355 /* Assets.xcassets in Resources */,
 				43B50D441E2B4E4A005F5355 /* potatoBugThumb.jpg in Resources */,
 				43B50D411E2B4E4A005F5355 /* ladybug.jpg in Resources */,
+				43B50D551E2BF94A005F5355 /* shockedface2_half.png in Resources */,
+				43B50D571E2BF966005F5355 /* logo1.png in Resources */,
 				43B50D231E2B3F8A005F5355 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B50D331E2B4179005F5355 /* RWTScaryBugData.m in Sources */,
+				43B50D4A1E2BF7BF005F5355 /* RWTRateView.m in Sources */,
+				43B50D4F1E2BF93A005F5355 /* RWTUIImageExtras.m in Sources */,
 				43B50D1A1E2B3F8A005F5355 /* AppDelegate.m in Sources */,
 				43B50D361E2B4396005F5355 /* RWTScaryBugDoc.m in Sources */,
 				43B50D1D1E2B3F8A005F5355 /* MasterViewController.m in Sources */,
